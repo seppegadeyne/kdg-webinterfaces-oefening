@@ -4,7 +4,6 @@
 	import SoundboardItem from '$lib/Components/Body/Element/SoundboardItem.svelte'
 	import { data } from '$lib/Database/data'
 	import { activeQuote } from '$lib/stores'
-
 </script>
 
 <svelte:head>

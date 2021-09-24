@@ -2,7 +2,6 @@
     export let
         title,
         classList
-
 </script>
 
 <article class="{classList}">
