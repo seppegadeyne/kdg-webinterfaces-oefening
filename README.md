@@ -12,6 +12,10 @@ npm init svelte@next
 
 # create a new project in my-app
 npm init svelte@next my-app
+
+# add Tailwind CSS to Svelte
+cd my-app
+npx svelte-add@latest tailwindcss
 ```
 
 > Note: the `@next` is temporary
