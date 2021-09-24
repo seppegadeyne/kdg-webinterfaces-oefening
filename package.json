@@ -9,6 +9,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-vercel": "next",
 		"eslint": "^7.32.0",
 		"eslint-plugin-svelte3": "^3.2.1",
 		"svelte": "^3.34.0",
@@ -17,6 +18,8 @@
 		"svelte-preprocess": "^4.9.4",
 		"autoprefixer": "^10.3.4",
 		"cssnano": "^5.0.8",
+		"@tailwindcss/aspect-ratio": "^0.2.1",
+		"@tailwindcss/forms": "^0.3.3",
 		"tailwindcss": "^2.2.15"
 	},
 	"type": "module"
