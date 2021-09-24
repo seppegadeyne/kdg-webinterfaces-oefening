@@ -35,10 +35,10 @@
     }
 </script>
 
-<section class="relative overflow-hidden">
+<section class="relative overflow-hidden group">
     <h2 class="sr-only">{title}</h2>
 
-    <div class="absolute w-full h-full flex items-center justify-center">
+    <div class="absolute w-full h-full flex items-center justify-center z-10">
         <div class="absolute flex h-12 w-12">
             <div
                     class:animate-ping={isPlaying}
@@ -58,6 +58,5 @@
         </div>
     </div>
 
-
-    <img src="{image}" width="{width}" height="{height}" alt="{alt}" class="w-full h-full object-cover " />
+    <img src="{image}" width="{width}" height="{height}" alt="{alt}" class="transition-transform duration-500 transform scale-105 group-hover:scale-125 w-full h-full object-cover" />
 </section>

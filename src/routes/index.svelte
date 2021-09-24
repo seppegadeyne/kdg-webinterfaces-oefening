@@ -10,7 +10,7 @@
 	<title>Soundboard</title>
 </svelte:head>
 
-<Article title="{$activeQuote === '' ? 'Soundboard' : `Soundboard: ${$activeQuote}`}" classList="lg:container mx-auto m-8 p-8 bg-yellow-300">
+<Article title="{$activeQuote === '' ? 'Soundboard' : `Soundboard: ${$activeQuote}`}" classList="lg:container mx-auto m-8 p-8 bg-yellow-300 shadow-2xl rounded-2xl">
 	<Soundboard>
 		{#each data.items as card}
 			<SoundboardItem sound="{card.sound}" image="{card.image}" width="{card.with}" height="{card.height}" title="{card.title}" alt="{card.alt}" quote="{card.quote}" />
